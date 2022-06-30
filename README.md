@@ -3,9 +3,9 @@ In this project we implemented a class with some methods, by doing test-driven d
 ## Getting Started
 to run the project locally, clone the project using the command
 
-`git clone https://github.com/Melaku05/School-Library.git`
+`git clone https://github.com/Melaku05/TDD-project.git`
 
-cd School-Library
+cd TDD-project
 
 install ruby
 open terminal or command promot, and type 
