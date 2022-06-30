@@ -12,10 +12,12 @@ class Solver
   end
 
   def fizz_buzz(num)
-    if num % 15 == 0 && num % 3 == 0
+    if (num % 15).zero? && (num % 3).zero?
       'FizzBuzz'
+    elsif (num % 3).zero?
+      'Fizz'
     else
-      num % 3 == 0 ? 'Fizz' : num % 5 == 0 ? 'Buzz' : num
+      (num % 5).zero? ? 'Buzz' : num
     end
   end
 end
