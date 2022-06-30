@@ -1,9 +1,9 @@
 class Solver
   def factorial(num)
-    if num == 0
+    if num.zero?
       1
     else
-      num* factorial(num - 1)
+      num * factorial(num - 1)
     end
   end
 
